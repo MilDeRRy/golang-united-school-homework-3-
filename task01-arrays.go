@@ -1,26 +1,27 @@
 package homework
 
 func average(input [15]float32) (result float32) {
+	var res float32 = 0
 	for _, v := range input {
-		result += v
+		res += v
 	}
-	result = result / 6
-	return result
+	res = res / 6
+	return res
 }
 
-/*package homework
+/*package main
 
 import "fmt"
 
 func main() {
-	results := []float64{1, 2, 3, 4, 5, 6}
-	grim := score(results)
+	results := [15]float32{1, 2, 3, 4, 5, 6}
+	grim := average(results)
 	fmt.Println(grim)
 }
 
-func score(g []float64) float64 {
-	var res float64 = 0
-	for _, v := range g {
+func average(input [15]float32) (result float32) {
+	var res float32 = 0
+	for _, v := range input {
 		res += v
 	}
 	res = res / 6
