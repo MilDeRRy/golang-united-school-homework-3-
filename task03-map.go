@@ -16,7 +16,7 @@ func sortMapValues(input map[int]string) (result []string) {
 	return eys
 }
 
-/*package main
+/*package homework
 
 import (
 	"fmt"

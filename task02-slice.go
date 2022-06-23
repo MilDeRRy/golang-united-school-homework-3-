@@ -1,6 +1,6 @@
 package homework
 
-func reverse(input [4]int64) (result []int64) {
+func reverse(input []int64) (result []int64) {
 	var resul []int64
 	for i := len(input) - 1; i >= 0; i-- {
 		t := (input[i])
@@ -11,7 +11,7 @@ func reverse(input [4]int64) (result []int64) {
 	return resul
 }
 
-/*package main
+/*package homework
 
 import "fmt"
 
